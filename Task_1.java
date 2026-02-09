@@ -98,7 +98,7 @@ public class Task_1 {
 
                 case 2:
                     System.out.print("Enter the day to set (Sun, Mon, Tue, ...): ");
-                    String newDay = sc.nextLine();
+                    String newDay = sc.next();
                     Day.setDay(newDay);
                     Day.printDay();
                     break;
